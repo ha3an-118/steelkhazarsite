@@ -1,0 +1,15 @@
+@font-face{
+    font-family:"yekan";
+    src:url('Yekan.eot');
+    src:
+        url('../font/Yekan.woff') format("woff"),
+        url('../font/Yekan.otf') format('opentype'),
+        url('../font/Yekan.svg#Yekan') format('svg');
+}
+@font-face{
+    font-family:"broya";
+    src:url('BRoya.eot');
+    src:
+        url('../font/BRoya.woff') format("woff"),
+        url('../font/BRoya.otf') format('opentype');
+}
