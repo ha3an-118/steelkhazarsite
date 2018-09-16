@@ -6,6 +6,7 @@
     <link rel='stylesheet' href="style.css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="function.js"></script>
+    <script src='js/slider.js'></script>
 </head>
 <body >
     <section id="top-nav" class='container-fluid bg-flat-8 text-flat-4 dir-ltr'>
@@ -65,5 +66,23 @@
         </div>
         
     </nav>
+    <section id="slider" slide="slider">
+        <ul >
+            <li  targ='#slider' targ-img='0'></li>
+            <li  targ='#slider' targ-img='1'></li>
+        </ul>
+        <div tag='image'>
+            <div >
+                <img class=' img-fluid' src='image/1.jpg'>
+            </div>
+            <div >
+                <img class='show  img-fluid' src='image/2.jpg'>
+            </div>
+
+        </div>
+    </section>
+    <section class='p-5 bg-flat-2 text-flat-7' slide="slider">
+        <h1 >this is test that i want to do </h1>
+    </section>
 </body>
 </html>
