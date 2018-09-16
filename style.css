@@ -1,0 +1,67 @@
+@import "css/font.css";
+@import "css/fontawesome.css";
+@import "css/bootstrap.css";
+@import "css/flatColor.css";
+*{
+    box-sizing:border-box;
+    font-family:broya;
+    transition:all 3s;
+    }
+i.fa{
+    font-weight:600 !important;
+    }
+.dir-ltr{
+    direction:ltr;
+    }
+.dir-rtl{
+    direction:rtl;
+    }
+a {
+    text-decoration:none !important;
+    color:inherit !important;
+    outline:none !important;
+    }
+body{
+    position:relative;
+    overflow-x:hidden;
+    }
+nav ul{
+    list-style:none;
+    }
+.side-nav{
+    position:fixed;
+    overflow-x:hidden;
+    top:0px;
+    left:0px;
+    height:100%;
+    }
+.side-open{
+    width:80%;
+    }
+.side-close{
+    width:0%;
+    }
+.exit{
+    position:relative;
+    top:5px;
+    left:5px;
+    }
+
+
+
+@media (min-width:768px){
+.side-nav{
+    position:relative;
+    overflow-x:hidden;
+    height:auto;
+    }
+.side-open{
+    width:auto;
+    }
+.side-close{
+    width:auto;
+    }
+body{
+    left:0 !important;
+    }
+}
