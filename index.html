@@ -66,24 +66,28 @@
         </div>
         
     </nav>
-    <section id="slider" slide="slider">
-        <ul >
-            <li  targ='#slider' targ-img='0'></li>
-            <li  targ='#slider' targ-img='1'></li>
-            <li  targ='#slider' targ-img='2'></li>
+    <section id="slider" role="slider">
+        <ul  class='d-flex flex-row'>
+            <li  targ='slider' targ-img='0'><i class='far fa-circle fa-sm'></i></li>
+            <li  targ='slider' targ-img='1'><i class='far fa-circle fa-sm'></i></li>
+            <li  targ='slider' targ-img='2'><i class='far fa-circle fa-sm bg-flat-7 text-flat-11'></i></li>
         </ul>
-        <div tag='image'>
-            <div >
-                <img class=' img-fluid' src='image/1.jpg'>
+        <div tag='image' class='w-100'>
+            <div class='w-100'>
+                <img class='w-100 img-fluid' src='image/5.jpg'>
             </div>
-            <div >
-                <img class='show  img-fluid' src='image/2.jpg'>
+            <div class='w-100'>
+                <img class='w-100 img-fluid' src='image/2.jpg'>
             </div>
-            <div >
-                <img class='  img-fluid' src='image/3.jpg'>
+            <div class='w-100' >
+                <img class='w-100  img-fluid' src='image/6.jpg'>
             </div>
 
 
+        </div>
+        <div tag='control'>
+            <div targ='slider' act='next'><i class='fa fa-arrow-right'></i></div>
+            <div targ='slider' act='prev'><i class='fa fa-arrow-left'></i></div>
         </div>
     </section>
     <section class='p-5 bg-flat-2 text-flat-7' slide="slider">
