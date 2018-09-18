@@ -1,0 +1,25 @@
+[role='slider']{
+    position:relative;
+    }
+
+[role='slider'] [tag='control']{
+    position:absolute;
+    top:50%;
+    width:100%;
+    }
+
+[role='slider'] ul {
+   list-style:none;
+
+    }
+[role='slider'] li::before{
+    content:"\f111";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: inherit;
+    color:#e74c3c;
+    }
+
+.activeSlide{
+    background:transparent;
+    font-weight:900 !important;
+    }
