@@ -108,6 +108,9 @@ div.product:hover .product-hover-content{
     visibility:visible;
     }
 
-
+body>footer{
+    background-color:#2f3640;
+    background-image:url(image/bg-footer.svg);
+    }
 
 
