@@ -76,8 +76,6 @@ function markLiActive(sliderId,imgNum){
     var imgActiveNum=picShowCont[imgActive].imgShow;
     $(ulList).find("[targ-img='"+imgActiveNum+"']").removeClass('activeSlide');
     $(ulList).find("[targ-img='"+imgNum+"']").addClass('activeSlide');
-
-    
     }
 
 
