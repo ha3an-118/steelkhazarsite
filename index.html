@@ -4,7 +4,9 @@
     <meta charset="utf-8" lang='fa'>
     <!--add needed file to html file -->
     <link rel='stylesheet' href="style.css">
-
+    
+    <script src='js/jquery-3.3.1.js'></script>
+    <script src='js/bootstrap.js'></script>
     <script src="function.js"></script>
     <script src='js/slider.js'></script>
 </head>
@@ -161,31 +163,15 @@
                     <div class='product-hover p-3'>
                             <div class=' product-hover-content d-flex flex-row justify-content-around align-items-center'>
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn bg-11  hover-bg-12 text-7" data-toggle="modal" data-target="#exampleModalCenter">
+                                <button type="button" class="btn bg-11  hover-bg-12 text-7" data-toggle="modal" data-target="#productShow1">
                                      مشاهده
                                 </button>
-                                <!-- Modal -->
-                                <div class="modal fade modal " id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <img src='image/01.jpg' class='img-fluid'> 
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Save changes</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href='' class='bg-11 hover-bg-12 text-flat-7 p-2 px-4' title='' >جزئیات</a>
-                            </div>
+                                 <!-- Button trigger modal -->
+                                <button type="button" class="btn bg-11  hover-bg-12 text-7" data-toggle="modal" data-target="#productDefine1">
+                                     جزئیات
+                                </button>
+                           
+                           </div>
                     </div>
                 </div>
                 <div class='text-right pt-3 px-3 pb-1  bg-light hover-bg-20 hover-text-7'>
@@ -194,6 +180,54 @@
                 </div>
             </div>
         </div>
+<!--   Modal part    -->
+ <!-- Modal 1 -->
+            <div class="modal fade modal " id="productShow1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header ">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src='image/01.jpg' class='img-fluid'> 
+                        </div>
+                   </div>
+                </div>
+            </div>
+             <div class="modal fade modal " id="productDefine1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header dir-rtl ">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                            <button type="button" class="close p-0 m-0" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body dir-rtl text-right">
+                            <ul>
+                                <li>مشخصات اول </li>
+                                <li>مشخصات اول </li>
+                                <li>مشخصات اول </li>
+                                <li>مشخصات اول </li>
+                                <li>مشخصات اول </li>
+                                <li>مشخصات اول </li>
+                            </ul>
+                            <button type="button" class="btn bg-11  hover-bg-12 text-7" data-toggle="modal" data-target="#productShow1"data-dismiss="modal" >
+                                     مشاهده
+                                </button>
+ 
+                        </div>
+                     </div>
+                </div>
+            </div>
+<!-- End the 1 modal   --> 
+
+
+
+
+
     </section>
     <!-- about us part -->
     <section id='aboutus' class='p-0 bg-18 text-2 dir-rtl'  >
@@ -305,7 +339,7 @@
                 </div>
         </div> 
     </footer>
-
+                               
 
 </body>
 </html>
